@@ -1,0 +1,77 @@
+#searchBar{
+    width: 400px;
+    text-align: center;
+    height:70px;
+    font-size: large;
+    padding-top: 20px;
+    border: grey;
+}
+#find{
+    width : 300px;
+    border-radius: 10px; 
+    height: 20px;
+    border: 2px solid grey;
+}
+#ImageOfPokemon{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 110px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#nameOfPokemon{
+    font-size: large;
+    text-align: center;
+    position: relative;
+    color:white;
+    background-color: lightgrey;
+    width: 130px;  
+    height: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#idOfPokemon{
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    padding-top: 5px;
+    width: 120px;  
+    height: 10px;
+}
+#container{
+    display: flex;
+    justify-content:space-evenly ;
+    position: relative;
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 20px;  
+}
+#containerOfPokemon{
+    display: flex;
+    flex-wrap: wrap;
+     
+    border-radius: 20px;
+    padding: 2px;
+     
+    width: 130px;
+    height: 130px;
+    background-color: pink;
+} 
+#root{
+    background-color: rgba(247, 241, 241, 0.938);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 600px;
+    border: black;
+}
+#pokemonImage{
+    height: 90px;
+    width: 90px;
+}
+
+
+
